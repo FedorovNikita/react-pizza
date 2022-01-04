@@ -10,13 +10,13 @@ import classNames from "classnames";
 //   }
 // }
 
-const Button = ({className, outline, onClickTs, children}) => {
+const Button = ({onClick, className, outline, children}) => {
   return (
     <button
       className={classNames("button", className, {
         "button--outline": outline,
       })}
-      onClick={(e) => onClickTs(e)}
+      onClick={onClick}
     >
       {children}
     </button>
