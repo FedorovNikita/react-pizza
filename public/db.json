@@ -1,0 +1,64 @@
+{
+  "pizzas": [
+    {
+      "id": 0,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/e9624d2bf1ae41598cd6635c0d3ed0f6_138x138.jpeg",
+      "name": "Пепперони Фреш с перцем",
+      "types": [0],
+      "sizes": [26, 40],
+      "price": 803,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 1,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/9bd4c76d4c2548c090ac6ae5a1eabae6_138x138.jpeg",
+      "name": "Песто",
+      "types": [1],
+      "sizes": [26, 30, 40],
+      "price": 445,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/7a0fac09c2264f8e8928f205c7acb5cf_138x138.jpeg",
+      "name": "Карбонара",
+      "types": [0],
+      "sizes": [30, 40],
+      "price": 445,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/ca0730a9b2d6457a899a41765555dc29_138x138.jpeg",
+      "name": "Додо Микс",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 495,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/80af1cf2138447b4a9afc30df6af712c_138x138.jpeg",
+      "name": "Пепперони",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 395,
+      "category": 0,
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://dodopizza-a.akamaihd.net/static/Img/Products/6b61691078454b3793cdbfbbaa15cf58_138x138.jpeg",
+      "name": "Маргарита",
+      "types": [0, 1],
+      "sizes": [26, 30, 40],
+      "price": 345,
+      "category": 0,
+      "rating": 4
+    }
+  ]
+}
