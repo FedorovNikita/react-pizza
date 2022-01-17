@@ -6,8 +6,6 @@ function SortPopup({ items, onClickSortType, activeSortType }) {
   const sortRef = useRef();
   const activeLabel = items.find(obj => obj.type === activeSortType).name;
 
-  console.log(activeSortType);
-
   const toggleVisiblePopup = () => {
     setVisiblePopup(!visiblePopup);
   };
@@ -22,7 +20,9 @@ function SortPopup({ items, onClickSortType, activeSortType }) {
   }, []);
 
   const handleOutsideClick = (e) => {
-    if (!e.path.includes(sortRef.current)) {
+    // for firefox
+    const path = e.path || (e.composedPath && e.composedPath());
+    if (!path.includes(sortRef.current)) {
       setVisiblePopup(false);
     }
   };
